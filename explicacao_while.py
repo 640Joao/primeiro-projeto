@@ -1,6 +1,7 @@
-continuar = "S"
+continuar = "s"
 
 while continuar.lower() == "s":
+    continuar = input("Deseja continuar? ")
     num = float(input("Digite um numero: "))
     print(num % 2)
     if num % 2 == 0:
